@@ -1,0 +1,165 @@
+.carousel-item {
+    height: 72vh;
+    min-height: 350px;
+    
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   
+  }
+ 
+  
+html,
+body {
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+/* Other Classes for Page Styling */
+
+body {
+  background: #ddd;
+  background: linear-gradient(to right, white, #dddd);
+}
+.logo-img {
+    float: left;
+    height: 40px;
+}
+#sticky-footer {
+
+height: 20px;
+background: #ddd
+}
+
+#sticky-footer.container text-center{
+  text-align: justify;
+  background: #ddd
+
+}
+#cardbackground{
+  background-color: #ddd;
+}
+.navbar-custom {
+
+background-color: #ddd;
+
+
+}
+* {
+  
+}
+a {
+  color:black;
+}
+small {
+  color:black;
+}
+.cardclass {
+  height: 123px;
+  width: 100px;
+}
+input[type=text] {
+  width: 100%;
+  
+  box-sizing: border-box;
+ 
+}
+#fp-size-large {
+  height: 260px;
+}
+#fp-size {
+  height: 81px;
+}
+
+span.navbar-toggler-icon {
+  background-color: rgb(160, 160, 160);
+}
+
+ 
+ 
+#checkbox_id {
+  width: 120px;
+  height: 40px;
+  background: #333;
+  margin: 20px 60px;
+  border-radius: 50px;
+  position: relative;
+  }
+  a.page-link {
+    color: black;
+    
+  }
+  .pagination {
+    float: right;
+    margin-right: 15px !important;
+  }
+  .breadcrumb-item + .breadcrumb-item::before {
+    color: #666;
+ 
+    content: "> ";
+    padding: 0 5px;
+}
+/*tabiem*/
+
+nav > .nav.nav-tabs{
+
+  border: none;
+    color:#fff;
+    background:#272e38;
+    border-radius:0;
+
+}
+nav > div a.nav-item.nav-link,
+nav > div a.nav-item.nav-link.active
+{
+  border: none;
+    padding: 18px 25px;
+    color:#fff;
+    background:#272e38;
+    border-radius:0;
+}
+
+nav > div a.nav-item.nav-link.active:after
+ {
+  content: "";
+  position: relative;
+  bottom: -60px;
+  left: -10%;
+  border: 15px solid transparent;
+  border-top-color: #e74c3c ;
+}
+.tab-content{
+  background: #fdfdfd;
+    line-height: 25px;
+    border: 1px solid #ddd;
+    border-top:5px solid #e74c3c;
+    border-bottom:5px solid #e74c3c;
+    padding:30px 25px;
+}
+
+nav > div a.nav-item.nav-link:hover,
+nav > div a.nav-item.nav-link:focus
+{
+  border: none;
+    background: #e74c3c;
+    color:#fff;
+    border-radius:0;
+    transition:background 0.20s linear;
+}
+#tab-picture {
+  height: 200px;
+}
+html {
+  scroll-behavior: smooth;
+}
