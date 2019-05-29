@@ -83,3 +83,31 @@
         </div>
       </div>
 </div>
+<div class="container">
+	<div class="row">
+		<div id="map" class="col-5">
+    </div>
+    <div class="col-7" class="adressDiv">
+    <address>
+				 <strong>Supersecret base</strong><br /><br><h3>Adress:</h3> Pils laukums 3, Riga, LV-1050,Latvia<br /><br><h3>Email:</h3> info@samplepage.com<br /> <abbr title="Phone"><br><h3>Phone:</h3></abbr> +371 666 666
+      </address> 
+    </div>
+	</div>
+</div>
+
+
+
+
+
+<script>
+  function initMap(){
+    var location = {lat: 56.954901, lng: 24.099403};
+    var map = new google.maps.Map(document.getElementById("map"),{
+      zoom: 18,
+      center: location
+    });
+  }
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAEpn7sYzqnmQndq7u8xauWXH2biBdR4Ek&callback=initMap"
+  type="text/javascript"></script>
+

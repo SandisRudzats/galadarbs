@@ -1,3 +1,4 @@
+
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -51,7 +52,7 @@
                   height="70px" width="70px" alt="">
               </div>
               <div class="card-block px-2">
-                <a href="articles.html">Article nr.1</a>
+                <a href="?page=1">Article nr.1</a>
                 <p class="card-text">Description</p>
               </div>
               
@@ -64,7 +65,7 @@
                   height="70px" width="70px" alt="">
               </div>
               <div class="card-block px-2">
-                <a href="articles.html">Article nr.1</a>
+                <a href="?page=1">Article nr.1</a>
                 <p class="card-text">Description</p>
               </div>
               
@@ -76,7 +77,7 @@
                   height="70px" width="70px" alt="">
               </div>
               <div class="card-block px-2">
-                <a href="articles.html">Article nr.1</a>
+                <a href="?page=1">Article nr.1</a>
                 <p class="card-text">Description</p>
               </div>
               

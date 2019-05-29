@@ -15,7 +15,7 @@ switch ($page) {
     require_once 'pages/chat.php';
     break;
     case(4);
-    require_once 'pages/register.php';
+    require_once 'pages/registration.php';
     break;
     case(5);
     require_once 'pages/aboutUs.php';

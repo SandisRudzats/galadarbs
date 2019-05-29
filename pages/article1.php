@@ -37,6 +37,7 @@
             <a data-fancybox="gallery" href="components/test.jpg"><img src="components/test.jpg" id="fp-size"></a>
             <br>
         </div>
+        
         <div class="col-9">
             <br>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis reiciendis earum recusandae, vero veniam eum ipsa aliquid molestias voluptatibus alias dolor eos sed nesciunt nisi aut, magnam ratione eligendi corrupti.
@@ -52,5 +53,6 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis reiciendis earum recusandae, vero veniam eum ipsa aliquid molestias voluptatibus alias dolor eos sed nesciunt nisi aut, magnam ratione eligendi corrupti.
             </p>
         </div>
+        
     </div>
 </div>

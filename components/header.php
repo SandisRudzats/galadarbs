@@ -12,12 +12,23 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
   <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  <style> 
+   
+   #map {
+    height: 400px;
+    width: 400px;
+    float: left;
+    margin: 0px;
+    
+    
+  }
+  </style>
 
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
     <div class="container">
-
+      
       <img class="logo-img"
         src="https://1j0wck1imcsh40eni41fxvae-wpengine.netdna-ssl.com/wp-content/uploads/2012/07/SmallGroups_LogoiconGroup.png"
         alt="">
@@ -43,6 +54,7 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="?page=5">About us</a>
+           
           </li>
         </ul>
       </div>

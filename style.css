@@ -29,8 +29,8 @@ body {
 /* Other Classes for Page Styling */
 
 body {
-  background: #ddd;
-  background: linear-gradient(to right, white, #dddd);
+  background: #96a192;
+  background: linear-gradient(to right, white, #96a192);
 }
 .logo-img {
     float: left;
@@ -39,26 +39,24 @@ body {
 #sticky-footer {
 
 height: 20px;
-background: #ddd
+background: #96a192;
 }
 
 #sticky-footer.container text-center{
   text-align: justify;
-  background: #ddd
+  background: #96a192;
 
 }
 #cardbackground{
-  background-color: #ddd;
+  background-color: #96a192;
 }
 .navbar-custom {
 
-background-color: #ddd;
+background-color: #96a192;
 
 
 }
-* {
-  
-}
+
 a {
   color:black;
 }
@@ -137,14 +135,14 @@ nav > div a.nav-item.nav-link.active:after
   bottom: -60px;
   left: -10%;
   border: 15px solid transparent;
-  border-top-color: #e74c3c ;
+  border-top-color:rgb(91, 161, 91) ;
 }
 .tab-content{
   background: #fdfdfd;
     line-height: 25px;
     border: 1px solid #ddd;
-    border-top:5px solid #e74c3c;
-    border-bottom:5px solid #e74c3c;
+    border-top:5px solid #3e7c53;
+    border-bottom:5px solid #71a17c;
     padding:30px 25px;
 }
 
@@ -152,7 +150,7 @@ nav > div a.nav-item.nav-link:hover,
 nav > div a.nav-item.nav-link:focus
 {
   border: none;
-    background: #e74c3c;
+    background: #2e532d;
     color:#fff;
     border-radius:0;
     transition:background 0.20s linear;
@@ -163,3 +161,22 @@ nav > div a.nav-item.nav-link:focus
 html {
   scroll-behavior: smooth;
 }
+#chatBox {
+  width: 80%;
+  height: 300px;
+  border:2px solid rgb(8, 77, 39);
+  overflow-y: scroll; 
+}
+
+   address {
+   float: left;
+    
+  }
+  /*#chatForm {
+    height: 100px;
+    width: 500px;
+    float:middle; 
+    
+   }*/
+   
+ 
