@@ -72,9 +72,10 @@ unset($_SESSION['registration_errors']);
   <label class="my-1 mr-2" for="inlineFormCustomSelectPref"></label>
   <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
     <option selected>Select your country</option>
-    <option value="1">One</option>
-    <option value="2">Two</option>
-    <option value="3">Three</option>
+    <option value="1">Katzlandia</option>
+    <option value="2">Flatvia</option>
+    <option value="3">Neverland</option>
+		<option value="4">Not a fan of Michael Jackson</option>
   </select>
 <input type="checkbox" name="checkbox" id="checkbox_id" value="value" required="">
     <label for="checkbox_id">Agree with terms and conditions*</label>
@@ -83,6 +84,6 @@ unset($_SESSION['registration_errors']);
 
 </div>
 </form>
-</div>
+		</div>
 	</div>
 </div>

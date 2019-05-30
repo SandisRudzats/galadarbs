@@ -1,6 +1,6 @@
 <br>
-  <br>
-  <br>
+<br>
+<br>
   
   <div class="container-fluid">
 	<div class="row">
@@ -36,8 +36,7 @@
             <a data-fancybox="gallery" href="components/articles6BIG.jpg"><img src="components/articles6BIG.jpg" id="fp-size"></a>
             <a data-fancybox="gallery" href="components/articles7BIG.jpg"><img src="components/articles7BIG.jpg" id="fp-size"></a>
             <br>
-        </div>
-        
+        </div>        
         <div class="col-9">
             <br>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis reiciendis earum recusandae, vero veniam eum ipsa aliquid molestias voluptatibus alias dolor eos sed nesciunt nisi aut, magnam ratione eligendi corrupti.
@@ -52,7 +51,6 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis reiciendis earum recusandae, vero veniam eum ipsa aliquid molestias voluptatibus alias dolor eos sed nesciunt nisi aut, magnam ratione eligendi corrupti.
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis reiciendis earum recusandae, vero veniam eum ipsa aliquid molestias voluptatibus alias dolor eos sed nesciunt nisi aut, magnam ratione eligendi corrupti.
             </p>
-        </div>
-        
+        </div>        
     </div>
 </div>

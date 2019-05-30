@@ -1,8 +1,8 @@
 <br>
-  <br>
-  <br>
+<br>
+<br>
   
-  <div class="container-fluid">
+<div class="container-fluid">
 	<div class="row">
 		<div class="col-md-12">
 			<nav>
@@ -29,10 +29,11 @@ if($_POST) {
 }
 ?>
 
-    <div class="container-fluid" id="chatBox" >
+<div class="container-fluid" id="chatBox" >
         <div class="row" id="chatBackground">
-    <div class="col-12" class="chatBoxInner">
+            <div class="col-12" class="chatBoxInner">
 <?php include "comments.php"; ?>
+    
 </div>
 <div class="container-fluid" id="chatForm" >
 	<div class="row" id="chatBackground">
@@ -48,11 +49,10 @@ if($_POST) {
     <input type="submit" value="Post!" id="inputButton" ><br>
     
     </form>
-    </div> 
-</div>
+         </div> 
+    </div>
 </div>
 
-    </div>
-	</div>
+    
 </div>
 <script src="main.js"></script>

@@ -1,6 +1,6 @@
 <br>
-  <br>
-  <br>
+<br>
+<br>
   
   <div class="container-fluid">
 	<div class="row">
@@ -41,14 +41,11 @@ The writer David Derbyshire cites a 2007 CE research project in which, “the st
 
 Dr. Kitchener’s findings built upon the evidence of cat’s domestication provided by the discovery in 1983 CE of a cat skeleton in a grave dating to 9,500 BCE on the island of Cyprus. This find, made by the archaeologist Alain le Brun, was important because Cyprus had no indigenous cat population and it is unlikely that settlers would have brought a wild cat, by boat, to the island.
                             </p>
-
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
-
     </section>
 </div>
 <div class="container-fluid">
@@ -76,22 +73,12 @@ When a cat died, Herodotus writes, “All the inhabitants of a house shave their
 The greatest example of Egyptian devotion to the cat, however, comes from the Battle of Pelusium (525 BCE) in which Cambyses II of Persia defeated the forces of the Egyptian Pharaoh Psametik III to conquer Egypt. Knowing of the Egyptian’s love for cats, Cambyses had his men round up various animals, cats chiefly among them, and drive the animals before the invading forces toward the fortified city of Pelusium on the Nile.
 
 The Persian soldiers painted images of cats on their shields, and may have held cats in their arms, as they marched behind the wall of animals. The Egyptians, reluctant to defend themselves for fear of harming the cats (and perhaps incurring the death penalty should they kill one), and demoralized at seeing the image of Bastet on the enemy’s shields, surrendered the city and let Egypt fall to the Persians. The historian Polyaenus (2nd century CE) writes that, after the surrender, Cambyses rode in triumph through the city and hurled cats into the faces of the defeated Egyptians in scorn.
-
-
-
-
-
-
-
                             </p>
-
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
-
     </section>
 </div>
 <div class="container-fluid" >
@@ -110,17 +97,12 @@ The Persian soldiers painted images of cats on their shields, and may have held 
                         <div class="card-block px-3">
                             <a href="?page=2">Article1</a>
                             <p class="card-text">The Egyptians are also responsible for the very name `cat’ in that it derives from the North African word for the animal, “quattah”, and, as the cat was so closely associated with Egypt, almost every other European nation employs variations on this word: French, chat; Swedish, katt; German, katze; Italian, gatto; Spanish, gato and so forth (Morris, 175). The colloquial word for a cat - `puss’ or `pussy’ - is also associated with Egypt in that it derives from the word Pasht, another name for Bastet.
-
-
                             </p>
-
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
-
     </section>
 </div>
 <div class="container-fluid" id="pagination-position">
