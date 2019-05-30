@@ -34,10 +34,10 @@
                   <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
                     <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                         <div class="container-fluid"><div class="row">
-                                <div class="col-4">
-                            <img src="components/test.jpg" alt="" id="tab-picture">
+                                <div class="col">
+                            <img src="components/testpic.jpg" alt="" id="tab-picture">
                             </div>
-                            <div class="col-8">
+                            <div class="col" id="tab-text">
                                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora nemo ratione mollitia dolorum illum molestias quae doloremque, possimus assumenda provident vitae reprehenderit, voluptatum libero. Illo asperiores reprehenderit placeat nemo vel!
                             </div>
                             </div>
@@ -45,10 +45,10 @@
                     </div>
                     <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
                     <div class="container-fluid"><div class="row">
-                                <div class="col-4">
-                            <img src="components/test.jpg" alt="" id="tab-picture">
+                                <div class="col">
+                            <img src="components/testpic.jpg" alt="" id="tab-picture">
                             </div>
-                            <div class="col-8">
+                            <div class="col">
                                 SMOREM ipsum dolor, sit amet consectetur adipisicing elit. Tempora nemo ratione mollitia dolorum illum molestias quae doloremque, possimus assumenda provident vitae reprehenderit, voluptatum libero. Illo asperiores reprehenderit placeat nemo vel!
                             </div>
                             </div>
@@ -56,10 +56,10 @@
                 </div>
                     <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
                     <div class="container-fluid"><div class="row">
-                                <div class="col-4">
-                            <img src="components/test.jpg" alt="" id="tab-picture">
+                                <div class="col">
+                            <img src="components/testpic.jpg" alt="" id="tab-picture">
                             </div>
-                            <div class="col-8">
+                            <div class="col">
                                 FOKOREM ipsum dolor, sit amet consectetur adipisicing elit. Tempora nemo ratione mollitia dolorum illum molestias quae doloremque, possimus assumenda provident vitae reprehenderit, voluptatum libero. Illo asperiores reprehenderit placeat nemo vel!
                             </div>
                             </div>
@@ -67,10 +67,10 @@
                 </div>
                     <div class="tab-pane fade" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab">
                     <div class="container-fluid"><div class="row">
-                                <div class="col-4">
-                            <img src="components/test.jpg" alt="" id="tab-picture">
+                                <div class="col">
+                            <img src="components/testpic.jpg" alt="" id="tab-picture">
                             </div>
-                            <div class="col-8">
+                            <div class="col">
                                chakalalalalalakak sit amet consectetur adipisicing elit. Tempora nemo ratione mollitia dolorum illum molestias quae doloremque, possimus assumenda provident vitae reprehenderit, voluptatum libero. Illo asperiores reprehenderit placeat nemo vel!
                             </div>
                             </div>

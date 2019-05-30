@@ -1,6 +1,9 @@
+
+
+
 .carousel-item {
-    height: 72vh;
-    min-height: 350px;
+    height: 100vh;
+    min-height: 250px;
     
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
@@ -9,13 +12,13 @@
     background-size: cover;
    
   }
- 
-  
-html,
-body {
-  height: 100%;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  
+ * {
+  font-family: 'Abel';
+  font-size: 15px;
+ }
+ .carousel-inner{
+  width:100%;
+  max-height: 350px !important;
 }
 
 #page-content {
@@ -23,37 +26,60 @@ body {
 }
 
 #sticky-footer {
+  /*background: white;*/
+  width: 100%;
+  background-size: cover;
   flex-shrink: none;
 }
-
+html {
+  height: 100%;
+  transform: scale(1.0);
+   transform-origin: 0 1;
+}
+body {
+  min-height: 100%;
+}
 /* Other Classes for Page Styling */
 
-body {
-  background: #96a192;
-  background: linear-gradient(to right, white, #96a192);
+html,body {
+  background: white;
+  
+  
+  
 }
-.logo-img {
+img.logo-img {
     float: left;
     height: 40px;
 }
 #sticky-footer {
 
-height: 20px;
-background: #96a192;
+height: 15px;
+
 }
 
 #sticky-footer.container text-center{
   text-align: justify;
-  background: #96a192;
+  padding: 100px;
+ 
 
 }
 #cardbackground{
-  background-color: #96a192;
+  background-color: white;
+  
+}
+div.card.flex-row.flex-nowrap{
+  background: white;
+  border-radius: 0px;
+  border: solid 2px #c6a32b;
+  left:2px;
 }
 .navbar-custom {
 
-background-color: #96a192;
 
+
+background: white;
+width: 100%;
+background-size: cover;
 
 }
 
@@ -64,8 +90,8 @@ small {
   color:black;
 }
 .cardclass {
-  height: 123px;
-  width: 100px;
+  height: 200px;
+  width: 200px;
 }
 input[type=text] {
   width: 100%;
@@ -77,11 +103,12 @@ input[type=text] {
   height: 260px;
 }
 #fp-size {
-  height: 81px;
+  height:85px;
 }
 
 span.navbar-toggler-icon {
-  background-color: rgb(160, 160, 160);
+  background-color: #c4a127;
+  
 }
 
  
@@ -114,7 +141,7 @@ nav > .nav.nav-tabs{
 
   border: none;
     color:#fff;
-    background:#272e38;
+    background:#b8af9d;
     border-radius:0;
 
 }
@@ -124,8 +151,8 @@ nav > div a.nav-item.nav-link.active
   border: none;
     padding: 18px 25px;
     color:#fff;
-    background:#272e38;
-    border-radius:0;
+    background:#000000 ;          
+    border-radius:2px ;                             
 }
 
 nav > div a.nav-item.nav-link.active:after
@@ -135,22 +162,22 @@ nav > div a.nav-item.nav-link.active:after
   bottom: -60px;
   left: -10%;
   border: 15px solid transparent;
-  border-top-color:rgb(91, 161, 91) ;
+  border-top-color:#d4a23d ;
 }
 .tab-content{
   background: #fdfdfd;
     line-height: 25px;
     border: 1px solid #ddd;
-    border-top:5px solid #3e7c53;
-    border-bottom:5px solid #71a17c;
+    border-top:5px solid #724f0a;
+    border-bottom:5px solid #917b50;
     padding:30px 25px;
 }
 
 nav > div a.nav-item.nav-link:hover,
 nav > div a.nav-item.nav-link:focus
-{
+ {
   border: none;
-    background: #2e532d;
+    background: #b8af9d;
     color:#fff;
     border-radius:0;
     transition:background 0.20s linear;
@@ -159,12 +186,14 @@ nav > div a.nav-item.nav-link:focus
   height: 200px;
 }
 html {
+  background-image: url("components/background.jpg");
   scroll-behavior: smooth;
 }
 #chatBox {
-  width: 80%;
-  height: 300px;
-  border:2px solid rgb(8, 77, 39);
+  width: 60%;
+    height: 500px;
+    border:2px solid #ddd;
+    
   overflow-y: scroll; 
 }
 
@@ -172,11 +201,82 @@ html {
    float: left;
     
   }
-  /*#chatForm {
-    height: 100px;
-    width: 500px;
-    float:middle; 
-    
-   }*/
+  #chatBackground
+  {
+  height: 420px;
+  background: #ebe0bc;
+    border-bottom: 0px solid #ebe0bc;
+    border-radius: 3px;
+}
+div#chatBox.container-fluid {
+  background: #ebe0bc;
+  border-radius: 3px;
+  overflow-y: scroll; 
+}
+form.something  {
+  padding: 6px;
+  background: #e2c66a;
+  border: 2px solid #ceae4e;
+  cursor: pointer;
+  border-radius: 2px;
+  width: 300px;
    
+}
+#chatBox {
+  border: 10px #ceae4e;
+}
+
+input#inputButton {
+  background: #cfb157;
+  border-block-start-color: #b89345;
+  border-block-end-color: #cf5f57
+  border-radius: 2px;
+
+}
+a.nav-link {
+  font-size: 22px;
+}
+small {
+  font-size: 15px;
+}
+#articlesBorder {
+  border: solid 2px #c6a32b;
+  border-left: solid 16px #c6a32b;
+  border-right: solid 16px #c6a32b;
+  padding: 0px;
+  
+}
+input#password,input#password2 {
+  float:left;
+  
+}
+input {
+  border-color:  #e2c463;
+  border-radius: 3px;
+}
+ol.breadcrumb {
+  background: #b8af9d;
+}
+#catGif {
  
+  
+}
+div.row {
+  background:#ebe0bc; 
+}
+#checkbox_id {
+  color: #ebe0bc;
+  background: #b89345;
+}
+#pagination-background {
+  background: white;
+}
+.carousel-indicators li {
+  background-color: #f3e593;
+}
+.carousel-indicators .active {
+  background-color: rgb(201, 157, 12);
+}
+.carousel {
+  overflow:hidden;
+}

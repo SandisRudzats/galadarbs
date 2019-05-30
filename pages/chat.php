@@ -30,23 +30,28 @@ if($_POST) {
 ?>
 
     <div class="container-fluid" id="chatBox" >
-        <div class="row">
-    <div class="col-12" class="chatbox">
+        <div class="row" id="chatBackground">
+    <div class="col-12" class="chatBoxInner">
 <?php include "comments.php"; ?>
 </div>
-
-</div>
-</div>
 <div class="container-fluid" id="chatForm" >
-	<div class="row">
-		<div class="col-md-12"  >
-			 
-    <form action="" method="POST" >
-    Comments: <textarea  name = "commentContent"></textarea><br>  
-    Name: <input type="text" name="name" ><br>
-    <input type="submit" value="Post!" ><br>
+	<div class="row" id="chatBackground">
+		<div class="col-md-4"  >
+			 <div class="chatBottom">
+    <form action="" method="POST" class="something" >
+    
+    <input type="text" name="name" placeholder="name"><br>
+    <br>
+    <input type="text" name="commentContent" placeholder="Input your message here:"><br>
+    
+    <br>
+    <input type="submit" value="Post!" id="inputButton" ><br>
     
     </form>
+    </div> 
+</div>
+</div>
+
     </div>
 	</div>
 </div>

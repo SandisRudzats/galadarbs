@@ -1,4 +1,7 @@
-<h1>Registration</h1>
+<br>
+<br>
+<br>
+
 <?php
 if(isset($_SESSION['registration_errors'])){
 ?>
@@ -12,10 +15,29 @@ if(isset($_SESSION['registration_errors'])){
         ?>
     </ul>
 </div>
+
 <?php
 unset($_SESSION['registration_errors']);
 }
 ?>
+
+<div class="container-fluid">
+	<div class="row" id="breadcrumbColor">
+		<div class="col-md-12"id="breadcrumbColor">
+			<nav>
+				<ol class="breadcrumb">
+					<li class="breadcrumb-item">
+						<a href="?">Home</a>
+					</li>
+					
+					<li class="breadcrumb-item active">
+						Registration
+					</li>
+				</ol>
+			</nav>
+		</div>
+	</div>
+</div>
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-4">
@@ -47,7 +69,7 @@ unset($_SESSION['registration_errors']);
 <input type="password" name="password2" id="password2" placeholder="repeat Password*">
 </div>
 <form class="form-inline">
-  <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Preference</label>
+  <label class="my-1 mr-2" for="inlineFormCustomSelectPref"></label>
   <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
     <option selected>Select your country</option>
     <option value="1">One</option>
